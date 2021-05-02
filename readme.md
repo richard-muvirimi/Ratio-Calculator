@@ -11,4 +11,4 @@ Simple proportion calculator based on php framework (Codeignitor 3).
 ## Installation
 
 1. Copy all files inside a directory
-2. Edit application/config/config.php ->  $config['base_url'] to point to install url
+2. Edit application/config/config.php ->  `$config['base_url']` to point to install url
