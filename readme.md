@@ -1,4 +1,4 @@
-# Project Browser
+# Ratio Calculator
 
 Simple proportion calculator based on php framework (Codeignitor 3).
 
