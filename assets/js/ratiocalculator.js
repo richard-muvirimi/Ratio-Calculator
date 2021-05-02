@@ -5,14 +5,14 @@
 
         $(".numinput").keyup(function () {
             console.log("change");
-            var base = $("#basevalue").val();
-            var other = $("#othervalue").val();
-            var wanted = $("#wantedvalue").val();
+            let base = $("#basevalue").val();
+            let other = $("#othervalue").val();
+            let wanted = $("#wantedvalue").val();
 
-            var answer = wanted * other / base;
+            let answer = wanted * other / base;
 
             $("#answer").val(answer);
-            console.log("change");
+            console.log(answer);
         });
 
     });

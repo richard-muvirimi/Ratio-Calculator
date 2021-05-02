@@ -27,7 +27,7 @@ class Calculator extends CI_Controller {
 
         $data['css'] = array(
             $css . "bootstrap.min.css",
-            $css . "ratiocalculator.css",
+            $css . "w3.css",
         );
         $data['js'] = array(
             $js . "jquery.min.js",
@@ -36,6 +36,7 @@ class Calculator extends CI_Controller {
         );
         $data['lang'] = array(
             'appname' => $this->lang->line('rc_appname'),
+            'description' => $this->lang->line('rc_description'),
             'welcome' => sprintf($this->lang->line('rc_welcome'), $this->lang->line('rc_appname')),
             'basevalue' => $this->lang->line('rc_basevalue'),
             'othervalue' => $this->lang->line('rc_othervalue'),
