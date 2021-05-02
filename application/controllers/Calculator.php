@@ -30,6 +30,7 @@ class Calculator extends CI_Controller
         $data['css'] = array(
             $css . "bootstrap.min.css",
             $css . "w3.css",
+            $css . "gh-fork-ribbon.min.css",
         );
         $data['js'] = array(
             $js . "jquery.min.js",

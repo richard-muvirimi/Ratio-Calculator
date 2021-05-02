@@ -31,9 +31,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
 <body>
 
     <!-- Fork -->
-    <a class="github-fork-ribbon" href="https://github.com/tygalive/Ratio-Calculator" data-ribbon="<?php echo $lang("github_fork") ?>" title="<?php echo $lang("github_fork") ?>" target=" _blank"><?php echo $lang("github_fork") ?></a>
+    <a class="github-fork-ribbon" href="https://github.com/tygalive/Ratio-Calculator" data-ribbon="<?php echo $lang["github_fork"] ?>" title="<?php echo $lang["github_fork"] ?>" target=" _blank"><?php echo $lang["github_fork"] ?></a>
 
-    <div class="w3-container">
+    <div class="w3-container w3-padding-24">
         <div class="w3-card-4">
             <div class="w3-container w3-padding-24">
                 <h1 class="w3-center"><?php echo $lang['welcome'] ?></h1>
