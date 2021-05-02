@@ -29,6 +29,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
 </head>
 
 <body>
+
+    <!-- Fork -->
+    <a class="github-fork-ribbon" href="https://github.com/tygalive/Ratio-Calculator" data-ribbon="<?php echo $lang("github_fork") ?>" title="<?php echo $lang("github_fork") ?>" target=" _blank"><?php echo $lang("github_fork") ?></a>
+
     <div class="w3-container">
         <div class="w3-card-4">
             <div class="w3-container w3-padding-24">

@@ -2,7 +2,8 @@
 
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Calculator extends CI_Controller {
+class Calculator extends CI_Controller
+{
 
     /**
      * Index Page for this controller.
@@ -18,7 +19,8 @@ class Calculator extends CI_Controller {
      *
      * @see https://codeigniter.com/user_guide/general/urls.html
      */
-    public function index() {
+    public function index()
+    {
         $this->load->helper('url');
         $this->lang->load('ratiocalculator');
 
@@ -37,6 +39,7 @@ class Calculator extends CI_Controller {
         $data['lang'] = array(
             'appname' => $this->lang->line('rc_appname'),
             'description' => $this->lang->line('rc_description'),
+            'github_fork' => $this->lang->line('rc_github_fork'),
             'welcome' => sprintf($this->lang->line('rc_welcome'), $this->lang->line('rc_appname')),
             'basevalue' => $this->lang->line('rc_basevalue'),
             'othervalue' => $this->lang->line('rc_othervalue'),
@@ -47,5 +50,4 @@ class Calculator extends CI_Controller {
 
         $this->load->view('calculator', $data);
     }
-
 }
